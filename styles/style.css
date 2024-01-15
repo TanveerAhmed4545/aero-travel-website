@@ -164,6 +164,15 @@ select {
     padding: 20px 0;
 }
 
+.popular-text-con,
+.popular-img-con {
+    flex-basis: 50%;
+}
+
+.popular-img-con>img {
+    width: 100%;
+}
+
 .popular-text-con ul>li {
     color: rgba(19, 19, 24, 0.70);
     font-size: 15px;
@@ -172,6 +181,7 @@ select {
     margin-left: 20px;
 
 }
+
 
 .popular-btn {
     padding: 14px 32px;
@@ -242,6 +252,68 @@ select {
     font-weight: 400;
     line-height: 26px;
     padding: 20px 50px 40px;
+}
+
+/* Most popular section */
+
+.most-popular {
+    margin: 100px 130px 0;
+}
+
+.most-popular-des-area {
+    text-align: center;
+}
+
+.most-popular-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.most-popular-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 50px 48px;
+}
+
+.most-card {
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+}
+
+.card-title {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 0 12px;
+}
+
+.card-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.most-img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 16px;
+    height: 350px;
+    transition: all 0.2s ease;
+}
+.most-img:hover{
+    transform: scale(1.01);
+}
+
+.most-popular-cards-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 /* choose-section styles */
@@ -482,6 +554,11 @@ select {
 
     }
 
+    .popular-text-con,
+    .popular-img-con {
+        flex-basis: 100%;
+    }
+
     .popular-section {
         flex-direction: column;
         gap: 24px;
@@ -544,27 +621,45 @@ select {
     }
 
     /*  Newsletter section  */
-    .newsletter-section{
+    .newsletter-section {
         margin: 20px;
         flex-direction: column;
     }
-    .newsletter-img-area,.newsletter-form-area{
+
+    .newsletter-img-area,
+    .newsletter-form-area {
         flex-basis: 100%;
     }
-    .img-text{
+
+    .img-text {
         padding: 5px;
-       
-    }
-    .img-text-para{
-        font-size: 12px;
-    }
-    .img-text-title{
-        font-size: 16px;
-    }
-    .newsletter-form-area{
-        width: auto;
+
     }
 
+    .img-text-para {
+        font-size: 12px;
+    }
+
+    .img-text-title {
+        font-size: 16px;
+    }
+
+    .newsletter-form-area {
+        width: auto;
+    }
+    /* Most popular section */
+    .most-popular{
+        margin: 20px;
+    }
+    .most-popular-cards-area{
+        grid-template-columns: 1fr;
+    }
+    .most-popular-title{
+            font-size: 20px;
+    }
+    .most-popular-para{
+      font-size: 12px;
+    }
 
 
 }
