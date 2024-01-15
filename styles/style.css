@@ -135,23 +135,73 @@ select {
     padding: 16px 24px;
 }
 
+/* popular section styles */
+
+.popular {
+    margin: 0 130px 100px;
+}
+
+.popular-section {
+    display: flex;
+    gap: 50px;
+}
+
+.popular-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-para-one,
+.popular-para-two {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+}
+
+.popular-text-con ul>li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+
+}
+
+.popular-btn {
+    padding: 14px 32px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+}
+
 /* responsive for mobile */
 
 @media screen and (max-width:600px) {
     /* header section  */
-      
-    .header{
+
+    .header {
         margin: 20px;
     }
-    .header-title{
+
+    .header-title {
         font-size: 1rem;
     }
+
     .title-img {
         width: 30px;
     }
-    .nav-ul >li{
+
+    .nav-ul>li {
         display: none;
     }
+
     .bars-icons {
         display: block;
         color: #131318;
@@ -159,30 +209,66 @@ select {
 
     /* banner styles */
 
-    .banner{
+    .banner {
         margin: 20px;
         padding: 30px 0;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 22px;
     }
-    .banner-para{
+
+    .banner-para {
         font-size: 14px;
         padding: 8px 15px 30px;
     }
-    .banner-form{
+
+    .banner-form {
         flex-direction: column;
         margin: 0 24px;
     }
+
     .banner-form input,
-select{
-    width: 100%;
-}
-.banner-btn{
-    width: 100%;
-    justify-content: center;
-}
+    select {
+        width: 100%;
+    }
+
+    .banner-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* popular styles  */
+
+    .popular {
+        margin: 0 20px 20px;
+
+    }
+
+    .popular-section {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .popular-title {
+        font-size: 20px;
+    }
+
+    .popular-img {
+        width: 100%;
+    }
+
+    .popular-para-one,
+    .popular-para-two {
+        font-size: 14px;
+    }
+
+    .popular-text-con ul>li {
+        font-size: 13px;
+    }
 
 
-    
+
+
+
 }
