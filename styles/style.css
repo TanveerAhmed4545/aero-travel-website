@@ -100,14 +100,14 @@ body {
 }
 
 .banner-form {
-    padding: 16px;
+    padding: 16px 0;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     margin: 0 100px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-evenly;
+
 
 
 }
@@ -123,6 +123,11 @@ select {
     font-size: 16px;
     font-weight: 400;
     width: auto;
+}
+
+.when-select,
+.select-type {
+    padding-right: 8px;
 }
 
 .banner-btn {
@@ -283,6 +288,7 @@ select {
     border-radius: 16px;
     background: rgba(41, 206, 246, 0.05);
     padding: 20px;
+    box-shadow: 0 0 5px rgba(41, 206, 246, 0.20);
 }
 
 .card-title {
@@ -390,6 +396,57 @@ select {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+}
+
+/* Perfect Place section */
+
+.perfect-place {
+    margin: 0 130px 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.perfect-img{
+    width: 100%;
+}
+
+.perfect-title {
+    color: #131318;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.perfect-des {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 20px 0;
+}
+
+.perfect-ul li {
+    color: #131318;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 20px;
+}
+.perfect-ul{
+    padding-bottom: 20px;
+}
+
+.perfect-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    padding: 14px 40px ;
+
 }
 
 /* Newsletter section */
@@ -522,8 +579,9 @@ select {
     padding-top: 15px;
     padding-bottom: 30px;
 }
-.footer-icons i{
-      
+
+.footer-icons i {
+
     width: auto;
     height: 24px;
     margin-right: 20px;
@@ -590,6 +648,7 @@ select {
         flex-direction: column;
         margin: 0 24px;
         gap: 20px;
+        padding: 16px;
     }
 
     .banner-form input,
@@ -675,6 +734,16 @@ select {
         font-size: 20px;
     }
 
+    /* Perfect Place section */
+
+    .perfect-place{
+        margin: 20px;
+        grid-template-columns: 1fr;
+    }
+    .perfect-title{
+        font-size: 20px;
+    }
+
     /*  Newsletter section  */
     .newsletter-section {
         margin: 20px;
@@ -719,21 +788,26 @@ select {
     .most-popular-para {
         font-size: 12px;
     }
+
     /* Footer styles */
 
-    .footer{
+    .footer {
         padding: 30px;
     }
-    .footer-des{
+
+    .footer-des {
         padding: 16px 0;
     }
-    .footer-hr{
+
+    .footer-hr {
         margin: 24px 0;
     }
-    .footer-title{
+
+    .footer-title {
         font-size: 21px;
     }
-    .footer-img{
+
+    .footer-img {
         height: 33px;
     }
 
