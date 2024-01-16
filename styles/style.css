@@ -433,7 +433,8 @@ select {
     display: flex;
     justify-content: right;
 }
-.deals-cards-area-two{
+
+.deals-cards-area-two {
     background-image: url("../images/Group\ 40.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -502,6 +503,20 @@ select {
     font-weight: 800;
     padding: 14px 24px;
 
+}
+.deals-section-foot-btn{
+    text-align: center;
+    padding-top: 45px;
+}
+.see-deals-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 14px 24px;
+    border-radius: 8px;
+    background: #FF5400;
+    outline: none;
+    border: none;
 }
 
 /* Perfect Place section */
@@ -843,20 +858,28 @@ select {
 
     /*  Deals & Discounts */
 
-    .deals-section{
+    .deals-section {
         margin: 20px;
     }
-    .deals-text-area{
+
+    .deals-text-area {
         padding-bottom: 16px;
     }
+
     .deals-title {
         font-size: 20px;
     }
-    .deals-cards-area-one,.deals-cards-area-two{
-        padding: 150px 16px 16px ;
-        
+
+    .deals-cards-area-one,
+    .deals-cards-area-two {
+        padding: 150px 16px 16px;
+
     }
-    .deal-card-row{
+    .deals-section-foot-btn{
+        display: none;
+    }
+
+    .deal-card-row {
         flex-basis: 100%;
         padding: 25px;
     }
