@@ -906,6 +906,10 @@ select {
         flex-basis: 100%;
     }
 
+    .newsletter-form-area{
+        padding: 22px;
+    }
+
     .img-text {
         padding: 5px;
 
