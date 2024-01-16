@@ -63,6 +63,10 @@ body {
     padding-left: 40px;
 }
 
+#home{
+    font-weight: 700;
+    color: #FF5400;
+}
 .bars-icons {
     display: none;
     color: #131318;
@@ -123,11 +127,6 @@ select {
     font-size: 16px;
     font-weight: 400;
     width: auto;
-}
-
-.when-select,
-.select-type {
-    padding-right: 8px;
 }
 
 .banner-btn {
@@ -589,6 +588,15 @@ select {
     padding: 40px;
     border-radius: 16px;
     border: 1px solid #FF5400;
+}
+
+.news-email::placeholder{
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.30);
+}
+.news-text::placeholder{
+    font-size: 16px;
+    color: rgba(19, 19, 24, 0.30);
 }
 
 .news-form-title {
